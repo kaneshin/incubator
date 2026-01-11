@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# Check if output is to a terminal (TTY)
+if [ -t 1 ]; then
+  # ANSI color codes
+  CYAN='\033[1;36m'
+  RESET='\033[0m'
+
+  # Draw formatted box with colors
+  echo -e "${CYAN}┌─────────────────┐${RESET}"
+  echo -e "${CYAN}│${RESET}  Hello World!   ${CYAN}│${RESET}"
+  echo -e "${CYAN}└─────────────────┘${RESET}"
+else
+  # Plain output for pipes/redirects
+  echo "Hello World"
+fi
