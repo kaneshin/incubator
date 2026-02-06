@@ -1,0 +1,9 @@
+{
+  "name": "dev-methodology",
+  "version": "0.1.0",
+  "description": "Development methodology skills for TDD, Tidy First, UI workflows, and commit discipline",
+  "author": {
+    "name": "Shintaro Kaneko"
+  },
+  "keywords": ["tdd", "test-driven-development", "tidy-first", "kent-beck", "workflows", "commit-discipline"]
+}
